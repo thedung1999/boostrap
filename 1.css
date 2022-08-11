@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* .navbar{
+    position: fixed;
+    width: 100%;
+} */
+.navlink ul li a{
+    color: white!important;
+}
+.navlink ul li a:hover{
+    color: yellow !important;
+    transition: 0.5s;
+    
+}
+/* section1 */
+.section1{
+    background-image: url(./img/h1.jpeg); 
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+}
+.section1 div{
+    padding: 200px 0;
+}
+.section1 div button{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px 25px;
+    color: white;
+}
+.section1 div button:hover{
+    color: white;
+}
+.section1 div p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section1 div p:nth-child(2){
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/*section2  */
+.section2{
+    text-align: center;
+}
+.section2 i{
+    font-size: 90px;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(215, 215, 46);
+}
+
+/* section3 */
+.section3{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+.img-fluid img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.portfolio-hover{
+    width: 92.5%;
+    height: 100%;
+    background-color: rgba(255, 255, 0, 0.804) !important;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+
+}
+.portfolio-hover:hover{
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+/* section4 */
+ul.section4 {
+    position: relative;
+    margin-top: 40px;
+}
+ul.section4::before{
+    border-left: 0.5px solid rgb(154, 149, 149);
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    content: "";
+    top: 0;
+    left: 49.2%;
+}
+
+.section4 li{
+  margin-bottom: 100px;
+  display: inline-block;
+  position: relative;
+}
+.timeline-image{
+  width: 100%;
+}
+.timeline-image img{
+    width: 15%;
+    border-radius: 50%;
+    position: absolute;
+    left: 42%;
+}
+.section4 li:first-child .timeline-panel{
+    width: 40%;
+    padding-right: 30px;
+    text-align: right;
+    float: left;
+}
+.section4 li:nth-child(2) .timeline-panel{
+    width: 42%;
+    padding-left: 30px;
+    text-align: left;
+    float: right;
+}
+.section4 li:nth-child(3) .timeline-panel{
+    width: 40%;
+    padding-right: 30px;
+    text-align: right;
+    float: left;
+}
+.section4 li:nth-child(4) .timeline-panel{
+    width: 42%;
+    padding-left: 30px;
+    text-align: left;
+    float: right;
+}
+.section4 li:nth-child(5){
+    width: 100%;
+}
+.section4 li:nth-child(5) div{
+    width: 15%;
+    border-radius: 50%;
+    left: 41.5%;
+    background-color: rgba(189, 189, 2, 0.996);
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    padding: 50px 20px;
+}
+
+/* section5 */
+.section5{
+    margin-top: 50px;
+    text-align: center;
+}
+.section5 div:first-child img{
+    width: 60%;
+    border-radius: 50%;
+}
+.section5 div:nth-child(2){
+    margin-top: 10px;
+}
+.section5 div:nth-child(2) h3{
+    font-weight: bold;
+}
+.section5 div:nth-child(3) i{
+    font-size: 25px;
+    background-color: black;
+    width: 12%;
+    padding: 5px 0;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
+
+
+/* section6 */
+.section6{
+    text-align: center;
+}
+.section6:first-child img{
+    width: 80%;
+    padding: 30px 0;
+}
+.section6:nth-child(2) img{
+    width: 40%;
+    padding: 30px 0;
+}
+.section6:nth-child(3) img{
+    width: 60%;
+    padding: 30px 0;
+}
+.section6:nth-child(4) img{
+    width: 40%;
+    padding: 30px 0;
+}
+
+/* section7 */
+.section7{
+    text-align: center;
+}
+.section7 button{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 0;
+    padding: 17px 25px;
+    color: white;
+}
+.section7 button:hover{
+    color: white;
+}
+
+/* section8 */
+.section8{
+    text-align: center;
+    margin: 15px 0;
+}
+.section8 div i{
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    width: 12%;
+    padding: 5px 0;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
